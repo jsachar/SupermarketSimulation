@@ -16,7 +16,7 @@ public class Main {
         try {
             TimeUnit.SECONDS.sleep(5);
         }catch(InterruptedException e){
-
+            System.out.println("Could not sleep!  ERROR!");
         }
         customer1.setArrival();
         System.out.println("Customer1 Arrived at: "+customer1.getArrival());

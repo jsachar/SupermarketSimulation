@@ -7,6 +7,7 @@ public class Customer {
     private int items;
     private long arrival; //time in milliseconds
 
+    //default constructor
     Customer(){
 
         this.name = "Customer1";
@@ -16,6 +17,7 @@ public class Customer {
 
 
     }
+    //constructor with parameters
     Customer(String name, int items){
         this.name = name;
         this.items = items;
